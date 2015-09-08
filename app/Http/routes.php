@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('getXml', ['as' => 'getXml', 'uses' => 'Realeyes\RealeyesController@getXml' ] );
+Route::get('convertXmlToJson', ['as' => 'convertXmlToJson', 'uses' => 'Realeyes\RealeyesController@convertXmlToJson' ] );

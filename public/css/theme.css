@@ -7164,3 +7164,26 @@ a.navbar-brand:hover {
   border: 1px solid #45474D; }
 .wrapper-dark .pricing-table-header {
   border-right: 1px solid #2d2e32; }
+
+
+div, span, p, td {
+  font-family: Arial, sans-serif;
+}
+#chart {
+  display: inline-block;
+}
+#legend {
+  display: inline-block;
+  position: relative;
+  left: 8px;
+}
+#legend_container {
+  position: absolute;
+  right: 0;
+  bottom: 26px;
+  width: 0;
+}
+#chart_container {
+  float: left;
+  position: relative;
+}
